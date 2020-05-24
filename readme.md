@@ -3,6 +3,7 @@
 
 >__This is designed to be hands on and to the point without any BS__
 
+>__Book updated on May 24 2020__
 
 
 # Arch Linux
@@ -12,13 +13,16 @@
 - `yay -S kindlegen`
 
 
-- write the MD book
+- Write the MD (markdown format) book
 
 
-- `pandoc readme.md -o readme.epub --metadata title="Publishing books on Amazon from Linux"`
+- `pandoc book.md -o book.epub --metadata title="Publishing books on Amazon from Linux"`
 
 
-- `kindlegen readme.epub`
+- `kindlegen book.epub`
+
+
+- Take the generated book.mobi and upload it to https://kdp.amazon.com
 
 
 
